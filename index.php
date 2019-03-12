@@ -15,6 +15,7 @@ shuffle($question); //配列の中身をシャッフル
 <head>
 <meta charset="utf-8">
 <title>簡易クイズプログラム</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 </head>
 <body>
  

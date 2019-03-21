@@ -48,7 +48,7 @@
 			<h1>paiza掲示板</h1>
 
 			<h2>投稿フォーム</h2>
-			<form class="form" action="bbs.php" method="post">
+			<form class="form" action="index.php" method="post">
 				<div class="form-group">
 					<label class="control-label">投稿内容</label>
 					<input class="form-control" type="text" name="content">
@@ -84,7 +84,7 @@
 						<td><?= $row["content"] ?></td>
 						<td><?= $row["user_name"] ?></td>
 						<td>
-							<form action="bbs.php" method="post">
+							<form action="index.php" method="post">
 								<input type="hidden" name="delete_id" value=<?= $row["id"] ?>>
 								<button class="btn btn-danger" type="submit">削除</button>
 							</form>

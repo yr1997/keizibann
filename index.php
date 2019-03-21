@@ -45,7 +45,7 @@
 				$stmt -> execute();
 			} ?>
 
-			<h1>paiza掲示板</h1>
+			<h1>掲示板</h1>
 
 			<h2>投稿フォーム</h2>
 			<form class="form" action="index.php" method="post">
